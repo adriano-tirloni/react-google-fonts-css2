@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import { assembleCommon } from 'google-fonts-css2'
+const { assembleCommon } = require('google-fonts-css2')
 
 const buildLink = (families, display) => {
   if (typeof document === 'undefined') return
