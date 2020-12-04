@@ -1,6 +1,7 @@
 Object.defineProperty(exports, '__esModule', { value: true });
 
 var react = require('react');
+var googleFontsCss2 = require('google-fonts-css2');
 
 function _slicedToArray(arr, i) {
   return _arrayWithHoles(arr) || _iterableToArrayLimit(arr, i) || _unsupportedIterableToArray(arr, i) || _nonIterableRest();
@@ -58,14 +59,11 @@ function _nonIterableRest() {
   throw new TypeError("Invalid attempt to destructure non-iterable instance.\nIn order to be iterable, non-array objects must have a [Symbol.iterator]() method.");
 }
 
-var _require = require('google-fonts-css2'),
-    assembleCommon = _require.assembleCommon;
-
 var buildLink = function buildLink(families, display) {
   if (typeof document === 'undefined') return;
   var link = document.createElement('link');
   link.rel = 'stylesheet';
-  link.href = assembleCommon(families, display);
+  link.href = googleFontsCss2.assembleCommon(families, display);
   return link;
 };
 
