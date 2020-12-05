@@ -1,6 +1,6 @@
 # REACT Google Fonts CSS2
 
-React component for using [https://github.com/adriano-tirloni/google-fonts-css2](google-fonts-css2), refer to it for more information.
+React component for using https://github.com/adriano-tirloni/google-fonts-css2, refer to it for more information.
 
 - SSR Ready
 - This is a very simple component, it will append a stylesheet link on document head.
