@@ -16,28 +16,28 @@ yarn add react-google-fonts-css2
 import GoogleFontsCss2Loader from  'react-google-fonts-css2'
 
 // Loading one font
-<GoogleFontsCss2Loader family='Quicksand' styles={[300, 400]} /> 
+  <GoogleFontsCss2Loader family='Quicksand' styles={[300, 400]} /> 
 
 
 //Loading multiple fonts
-<GoogleFontsCss2Loader families={[
-  {
-    family: 'Quicksand',
-    styles: [300, 400, '500italic']
-  },
-  {
-		family: "Cabin",  // Family Name
-		styles: [
-			"600..700", // Range, if family supports it.
-			"100..200italic", // Range with italic
-			"300italic",  // Weight with italic
-      "regular",  // Shortcut to 400
-			"italic", // Shortcut to 400 Italic
-			"500",  // Regular with Weight
-			444 // Regular Weight for variable font
-		]
-  }
-]} /> 
+  <GoogleFontsCss2Loader families={[
+    {
+      family: 'Quicksand',
+      styles: [300, 400, '500italic']
+    },
+    {
+      family: "Cabin",  // Family Name
+      styles: [
+        "600..700", // Range, if family supports it.
+        "100..200italic", // Range with italic
+        "300italic",  // Weight with italic
+        "regular",  // Shortcut to 400
+        "italic", // Shortcut to 400 Italic
+        "500",  // Regular with Weight
+        444 // Regular Weight for variable font
+      ]
+    }
+  ]} /> 
 
 
 ```
