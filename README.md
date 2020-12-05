@@ -20,6 +20,8 @@ import GoogleFontsCss2Loader from  'react-google-fonts-css2'
 // Loading one font
   <GoogleFontsCss2Loader family='Quicksand' styles={[300, 400]} /> 
 
+// Explicit display (default is 'swap'. options: auto | block | swap | fallback | optional )
+  <GoogleFontsCss2Loader family='Quicksand' styles={[300, 400]} display='fallback' /> 
 
 //Loading multiple fonts
   <GoogleFontsCss2Loader families={[
