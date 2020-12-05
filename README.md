@@ -4,7 +4,9 @@ React component for using https://github.com/adriano-tirloni/google-fonts-css2, 
 
 - SSR Ready
 - This is a very simple component, it will append a stylesheet link on document head.
-- It doesn't verify is the Font Family name or styles is correct. It only generates the correct URL.
+- Only `weight` and `italic` variations are avaliable, soon all variations (eg.: `width`) will be avaliable.
+
+- It **doesn't** verify if the Font Family name or styles are correct, some font allow ranges, others don't have italic, check https://fonts.google.com to get correct information. The component only generates the correct URL structure for api request.
     
 ## Installing and usage:
 
